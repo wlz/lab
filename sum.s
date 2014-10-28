@@ -1,3 +1,9 @@
+#int i, n;
+#for(i = 0; i < 10; i++)
+#{
+#    n += i;
+#} 
+
 .globl _start
 
 _start:
