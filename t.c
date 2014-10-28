@@ -5,5 +5,6 @@ void foo()
 
 void bar()
 {
+
     return;
 }
