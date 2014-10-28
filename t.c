@@ -3,7 +3,7 @@ void foo()
     return;
 }
 
-int bar()
+void bar()
 {
-    return 1;
+    return;
 }
