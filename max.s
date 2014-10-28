@@ -1,12 +1,14 @@
 /*
+int data = {6, 5, 10, 3, 15, 17};
 int max = 0;
 int i;
-for(i = 0; i < 4; i++)
+for(i = 0; i < 6; i++)
 {
     if(data[i] > max)
         max = data[i]
 }
 */
+
 data:
 .long 6
 .long 5
