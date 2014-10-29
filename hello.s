@@ -8,7 +8,7 @@ int main()
 
     .data
 hellostr:
-    .ascii "hello world!\n" ;
+    .ascii "hello world!\n" 
 helloend:
 
     .text
