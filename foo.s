@@ -16,7 +16,6 @@ main:
 	pushl	%ebp
 	movl	%esp, %ebp
 	andl	$-16, %esp
-	subl	$16, %esp
 	movl	$4, 4(%esp)
 	movl	$3, (%esp)
 	call	add
