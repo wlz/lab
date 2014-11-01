@@ -35,7 +35,6 @@ addl $1, %edi
 cmpl $5, %edi 
 
 jle op 
-#pushl $1
 
 movl $1, %eax
 int $0x80
