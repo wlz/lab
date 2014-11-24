@@ -7,9 +7,9 @@ int main()
 */
 
     .data
-hellostr:
+str:
     .ascii "hello world!\n" 
-helloend:
+end:
 
     .text
     .globl main
@@ -17,8 +17,8 @@ helloend:
 main:
     movl $4, %eax
     movl $1, %ebx
-    movl $hellostr , %ecx
-    movl $(helloend-hellostr), %edx
+    movl $str , %ecx
+    movl $(end-str), %edx
     int $0x80
 
     movl $1, %eax
